@@ -7,13 +7,13 @@ const NavBar = () => {
       <nav className={classes.nav}>
         <ul>
           <li>
-            <NavLink>Test</NavLink>
+            <NavLink className={classes.text}>Test</NavLink>
           </li>
           <li>
-            <NavLink>Data</NavLink>
+            <NavLink className={classes.text}>Data</NavLink>
           </li>
           <li>
-            <NavLink>Here</NavLink>
+            <NavLink className={classes.text}>Here</NavLink>
           </li>
         </ul>
       </nav>
