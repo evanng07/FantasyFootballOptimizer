@@ -6,7 +6,7 @@ import NavBar from "./NavBar";
 const Layout = (props) => {
     return <Fragment>
         <NavBar />
-        <main className={classes.main}>{props.children}</main>
+        
     </Fragment>
 }
 
