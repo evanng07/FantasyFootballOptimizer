@@ -1,10 +1,13 @@
+import Card from "../components/UI/Card";
 import "../index.css";
 
 const HomePage = () => {
   return (
-    <div className="home">
-      <h1 className="title">Welcome to the Fantasy Football Optimizer</h1>
-    </div>
+    <Card>
+      <div className="home">
+        <h1 className="title">Hello!</h1>
+      </div>
+    </Card>
   );
 };
 
