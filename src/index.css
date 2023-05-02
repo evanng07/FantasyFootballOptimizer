@@ -20,8 +20,13 @@ code {
 }
 
 .title {
-  margin-left: 300px;
   font-size: large;
   font-weight: bold;
   color: black;
+}
+
+.card {
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
 }
