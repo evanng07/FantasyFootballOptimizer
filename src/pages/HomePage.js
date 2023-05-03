@@ -5,7 +5,9 @@ const HomePage = () => {
   return (
     <Card className="card">
       <div className="home">
-        <h1 className="title">Hello!</h1>
+        <div className="title">
+          Welcome to the <br /> Fantasy Football Optimizer
+        </div>
       </div>
     </Card>
   );
