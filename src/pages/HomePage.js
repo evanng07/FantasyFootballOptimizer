@@ -6,7 +6,7 @@ const HomePage = () => {
     <Card className="card">
       <div className="home">
         <div className="title">
-          Welcome to the <br /> Fantasy Football Optimizer
+          <br/><br/><br/> Welcome to the <br /> Fantasy Football Optimizer
         </div>
       </div>
     </Card>
