@@ -6,7 +6,7 @@ const SearchPage = () => {
     <Card className="card">
       <div className="search">
         <div className="title">
-          <br/><br/><br/>Search Page<br />
+          <br/><br/><br/>Search Page is here!<br />
         </div>
       </div>
     </Card>

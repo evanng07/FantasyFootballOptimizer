@@ -6,7 +6,7 @@ const TeamPage = () => {
     <Card className="card">
       <div className="team">
         <div className="title">
-          <br/><br/><br/>Team Page<br />
+          <br/><br/><br/>Team Page is here!<br />
         </div>
       </div>
     </Card>

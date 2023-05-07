@@ -15,7 +15,6 @@ function App() {
           <Route path='/team' element={<TeamPage />} />
           <Route path='/search' element={<SearchPage />} />
         </Route>
-
       </Routes>
     
   );
