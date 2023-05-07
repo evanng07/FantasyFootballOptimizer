@@ -3,13 +3,13 @@ import "../index.css";
 
 const TeamPage = () => {
   return (
-    <Card className="card">
-      <div className="team">
-        <div className="title">
-          <br/><br/><br/>Team Page is here!<br />
+    
+      <div className="justify-center items-center ml-32">
+        <div className="text-3xl font-bold text-white">
+          Your Team
         </div>
       </div>
-    </Card>
+    
   );
 };
 

@@ -3,13 +3,13 @@ import "../index.css";
 
 const HomePage = () => {
   return (
-    <Card className="card">
-      <div className="home">
-        <div className="title">
-          <br/><br/><br/>Welcome to the <br /> Fantasy Football Optimizer
+    
+      <div className="justify-center items-center ml-32">
+        <div className="text-3xl font-bold text-white">
+          Welcome to the Fantasy Football Optimizer!
         </div>
       </div>
-    </Card>
+    
   );
 };
 
