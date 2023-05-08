@@ -22,3 +22,12 @@ code {
   align-items: center;
   
 }
+
+.search-bar {
+  padding: 1.3rem;
+  border-radius: 2rem;
+  margin-left: 15rem;
+  width: 60%;
+  margin-top: 7rem;
+  height: 40px;
+}

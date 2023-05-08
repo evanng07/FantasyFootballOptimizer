@@ -4,7 +4,7 @@ import "../index.css";
 const TeamPage = () => {
   return (
     
-      <div className="justify-center items-center ml-32">
+      <div className="justify-center items-center ml-32 mt-6">
         <div className="text-3xl font-bold text-white">
           Your Team
         </div>
