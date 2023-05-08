@@ -8,6 +8,26 @@ const TeamPage = () => {
         <div className="text-3xl font-bold text-white">
           Your Team
         </div>
+        <div className="team">
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+        </div>
       </div>
     
   );

@@ -23,11 +23,11 @@ code {
   
 }
 
-.search-bar {
-  padding: 1.3rem;
-  border-radius: 2rem;
-  margin-left: 15rem;
-  width: 60%;
-  margin-top: 7rem;
-  height: 40px;
+.team {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(6, 1fr);
+  margin-left: -24px;
+  margin: 2px;
+  gap: 10px;
 }
