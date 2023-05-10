@@ -30,4 +30,10 @@ code {
   margin-left: -24px;
   margin: 2px;
   gap: 10px;
+  font-size: .75rem;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  text-align: center; 
 }
+
