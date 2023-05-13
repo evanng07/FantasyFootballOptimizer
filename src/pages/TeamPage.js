@@ -87,7 +87,7 @@ const TeamPage = () => {
           <div>Rhamondre Stevenson</div>
           <div className="text-center mt-2">RB | 38</div>
           <div className="text-center bottom-6 absolute text-xs left-0 right-0">
-          New England Patriots
+            New England Patriots
           </div>
         </Card>
         <Card>
@@ -108,7 +108,7 @@ const TeamPage = () => {
           <div>Michael Gallup</div>
           <div className="text-center mt-2">WR | 13</div>
           <div className="text-center bottom-6 absolute text-xs left-0 right-0">
-          Dallas Cowboys
+            Dallas Cowboys
           </div>
         </Card>
         <Card>

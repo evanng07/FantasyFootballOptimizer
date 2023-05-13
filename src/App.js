@@ -4,6 +4,7 @@ import Layout from './components/layout/Layout';
 import HomePage from './pages/HomePage';
 import TeamPage from './pages/TeamPage';
 import SearchPage from './pages/SearchPage';
+import StatPage from './pages/StatPage';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' element={<Layout />}>
           <Route path='/home' element={<HomePage />} />
           <Route path='/team' element={<TeamPage />} />
+          <Route path='/stat' element={<StatPage />} />
           <Route path='/search' element={<SearchPage />} />
         </Route>
       </Routes>

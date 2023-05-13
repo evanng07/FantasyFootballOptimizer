@@ -4,8 +4,8 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,14 +13,13 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 .card {
   justify-content: center;
   align-items: center;
-  
 }
 
 .team {
@@ -30,20 +29,53 @@ code {
   margin-left: -24px;
   margin: 2px;
   gap: 10px;
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-weight: bold;
   color: white;
   align-items: center;
-  text-align: center; 
+  text-align: center;
   position: relative;
 }
 
 .test {
   text-align: center;
   position: absolute;
-  font-size: .75rem;
+  font-size: 0.75rem;
   bottom: 1.5rem;
   left: 0;
   right: 0;
 }
 
+.front {
+  position: relative;
+  backface-visibility: hidden;
+  overflow: hidden;
+  
+}
+
+.back {
+  position: relative;
+  overflow: hidden;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  
+}
+
+.thecard {
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.thecard:hover {
+  transform: rotateY(180deg);
+}
+
+
+.main {
+  position: relative;
+  width: 175px;
+  height: 225px;
+}

@@ -13,6 +13,9 @@ const NavBar = () => {
             <NavLink to="/team" className={classes.text}>Team</NavLink>
           </li>
           <li>
+            <NavLink to="/stat" className={classes.text}>Stats</NavLink>
+          </li>
+          <li>
             <NavLink to="/search" className={classes.text}>Search</NavLink>
           </li>
         </ul>
