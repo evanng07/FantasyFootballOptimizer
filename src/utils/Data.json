@@ -75,5 +75,12 @@
     "position": "TE",
     "number": 83,
     "fantasy_score": 15.4
+  },
+  {
+    "name": "Dak Prescott",
+    "team": "Dallas Cowboys",
+    "position": "QB",
+    "number": 4,
+    "fantasy_score": 18.4
   }
 ]
