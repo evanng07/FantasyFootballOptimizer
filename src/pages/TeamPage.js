@@ -7,7 +7,7 @@ const TeamPage = () => {
       <div className="text-3xl font-bold text-white">Your Team</div>
       <div className="team">
         <Card>
-          <div>LEGOAT</div>
+          <div>Patrick Mahomes</div>
           <div className="text-center mt-2">QB | 15</div>
           <div className="text-center bottom-6 absolute text-xs left-0 right-0">
             Kansas City Chiefs
