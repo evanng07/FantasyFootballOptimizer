@@ -1,6 +1,6 @@
 .sidebar {
   background: #2b2a2a;
-  width: 150px;
+  width: 160px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -37,9 +37,7 @@
   font-size: 1.5rem;
   margin-top: 40px;
   display: flex; /* Add display flex to make the list items flex containers */
-  align-items: center; /* Align items vertically in the flex container */
-  opacity: 1;
-  transition: opacity 0.3s ease-in;
+  
 }
 
 .nav.collapsed li {
@@ -50,11 +48,26 @@
   color: white;
   text-decoration: none;
   margin-left: 16px; /* Add margin to create space between the icon and text */
-
+  
 }
 
 .iconText {
-  margin-left: 8px; /* Add margin to create space between the icon and text */
+  margin-left: 15px; /* Add margin to create space between the icon and text */
+}
+
+.toggleButton {
+  margin-left: 16px;
+  margin-top: 16px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.iconTextMenu {
+  margin-left: 50px; /* Add margin to create space between the icon and text */
+  position: absolute;
+  margin-top: -36px;
 }
 
 

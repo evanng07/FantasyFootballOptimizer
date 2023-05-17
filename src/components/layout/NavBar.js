@@ -17,11 +17,18 @@ const NavBar = () => {
   return (
     <div className={`${classes.sidebar} ${collapsed ? classes.collapsed : ""}`}>
       <button className={classes.toggleButton} onClick={toggleCollapse}>
-        <MenuIcon fontSize="large" variant="outlined" sx={{ color: "white"}} />
+      {collapsed ? (
+                <MenuIcon className={classes.icon} fontSize="large" />
+              ) : (
+                <>
+                  <MenuIcon className={classes.icon} fontSize="large" />
+                  <div className={classes.iconTextMenu}>Menu</div>
+                </>
+              )}
       </button>
       <nav className={classes.nav}>
         <ul>
-          <li>
+          <li onClick={toggleCollapse}>
             <NavLink to="/home" className={classes.text}>
               {collapsed ? (
                 <HomeIcon className={classes.icon} fontSize="large" />
@@ -33,7 +40,7 @@ const NavBar = () => {
               )}
             </NavLink>
           </li>
-          <li>
+          <li onClick={toggleCollapse}>
             <NavLink to="/team" className={classes.text}>
               {collapsed ? (
                 <GroupsIcon className={classes.icon} fontSize="large" />
@@ -45,7 +52,7 @@ const NavBar = () => {
               )}
             </NavLink>
           </li>
-          <li>
+          <li onClick={toggleCollapse}>
             <NavLink to="/stat" className={classes.text}>
               {collapsed ? (
                 <BarChartIcon className={classes.icon} fontSize="large" />
@@ -57,7 +64,7 @@ const NavBar = () => {
               )}
             </NavLink>
           </li>
-          <li>
+          <li onClick={toggleCollapse}>
             <NavLink to="/search" className={classes.text}>
               {collapsed ? (
                 <SearchIcon className={classes.icon} fontSize="large" />
