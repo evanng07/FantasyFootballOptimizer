@@ -28,50 +28,50 @@ const NavBar = () => {
       </button>
       <nav className={classes.nav}>
         <ul>
-          <li onClick={toggleCollapse}>
+          <li>
             <NavLink to="/home" className={classes.text}>
               {collapsed ? (
-                <HomeIcon className={classes.icon} fontSize="large" />
+                <HomeIcon className={classes.icon} fontSize="large"/>
               ) : (
                 <>
-                  <HomeIcon className={classes.icon} fontSize="large" />
-                  <span className={classes.iconText}>Home</span>
+                  <HomeIcon className={classes.icon} fontSize="large" onClick={toggleCollapse} />
+                  <span className={classes.iconText} onClick={toggleCollapse} >Home</span>
                 </>
               )}
             </NavLink>
           </li>
-          <li onClick={toggleCollapse}>
+          <li >
             <NavLink to="/team" className={classes.text}>
               {collapsed ? (
                 <GroupsIcon className={classes.icon} fontSize="large" />
               ) : (
                 <>
-                  <GroupsIcon className={classes.icon} fontSize="large" />
-                  <span className={classes.iconText}>Team</span>
+                  <GroupsIcon className={classes.icon} fontSize="large" onClick={toggleCollapse} />
+                  <span className={classes.iconText} onClick={toggleCollapse}>Team</span>
                 </>
               )}
             </NavLink>
           </li>
-          <li onClick={toggleCollapse}>
+          <li >
             <NavLink to="/stat" className={classes.text}>
               {collapsed ? (
                 <BarChartIcon className={classes.icon} fontSize="large" />
               ) : (
                 <>
-                  <BarChartIcon className={classes.icon} fontSize="large" />
-                  <span className={classes.iconText}>Stats</span>
+                  <BarChartIcon className={classes.icon} fontSize="large" onClick={toggleCollapse} />
+                  <span className={classes.iconText} onClick={toggleCollapse}>Stats</span>
                 </>
               )}
             </NavLink>
           </li>
-          <li onClick={toggleCollapse}>
+          <li >
             <NavLink to="/search" className={classes.text}>
               {collapsed ? (
                 <SearchIcon className={classes.icon} fontSize="large" />
               ) : (
                 <>
-                  <SearchIcon className={classes.icon} fontSize="large" />
-                  <span className={classes.iconText}>Search</span>
+                  <SearchIcon className={classes.icon} fontSize="large" onClick={toggleCollapse} />
+                  <span className={classes.iconText} onClick={toggleCollapse}>Search</span>
                 </>
               )}
             </NavLink>
