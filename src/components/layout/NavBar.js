@@ -1,33 +1,72 @@
+import React, { useState } from "react";
 import classes from "./NavBar.module.css";
 import { NavLink } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
 import GroupsIcon from "@mui/icons-material/Groups";
-import BarChartIcon from '@mui/icons-material/BarChart';
+import BarChartIcon from "@mui/icons-material/BarChart";
 import SearchIcon from "@mui/icons-material/Search";
+import MenuIcon from "@mui/icons-material/Menu";
 
 const NavBar = () => {
+  const [collapsed, setCollapsed] = useState(false);
+
+  const toggleCollapse = () => {
+    setCollapsed(!collapsed);
+  };
+
   return (
-    <div className={classes.sidebar}>
+    <div className={`${classes.sidebar} ${collapsed ? classes.collapsed : ""}`}>
+      <button className={classes.toggleButton} onClick={toggleCollapse}>
+        <MenuIcon fontSize="large" variant="outlined" sx={{ color: "white"}} />
+      </button>
       <nav className={classes.nav}>
         <ul>
           <li>
             <NavLink to="/home" className={classes.text}>
-              <HomeIcon className={classes.icon} fontSize="large" />
+              {collapsed ? (
+                <HomeIcon className={classes.icon} fontSize="large" />
+              ) : (
+                <>
+                  <HomeIcon className={classes.icon} fontSize="large" />
+                  <span className={classes.iconText}>Home</span>
+                </>
+              )}
             </NavLink>
           </li>
           <li>
             <NavLink to="/team" className={classes.text}>
-              <GroupsIcon className={classes.icon} fontSize="large" />
+              {collapsed ? (
+                <GroupsIcon className={classes.icon} fontSize="large" />
+              ) : (
+                <>
+                  <GroupsIcon className={classes.icon} fontSize="large" />
+                  <span className={classes.iconText}>Team</span>
+                </>
+              )}
             </NavLink>
           </li>
           <li>
             <NavLink to="/stat" className={classes.text}>
-              <BarChartIcon className={classes.icon} fontSize="large" />
+              {collapsed ? (
+                <BarChartIcon className={classes.icon} fontSize="large" />
+              ) : (
+                <>
+                  <BarChartIcon className={classes.icon} fontSize="large" />
+                  <span className={classes.iconText}>Stats</span>
+                </>
+              )}
             </NavLink>
           </li>
           <li>
             <NavLink to="/search" className={classes.text}>
-              <SearchIcon className={classes.icon} fontSize="large" />
+              {collapsed ? (
+                <SearchIcon className={classes.icon} fontSize="large" />
+              ) : (
+                <>
+                  <SearchIcon className={classes.icon} fontSize="large" />
+                  <span className={classes.iconText}>Search</span>
+                </>
+              )}
             </NavLink>
           </li>
         </ul>

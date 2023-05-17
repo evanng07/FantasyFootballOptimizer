@@ -1,10 +1,14 @@
 .sidebar {
   background: #2b2a2a;
-  width: 100px;
+  width: 150px;
   height: 100%;
   position: absolute;
   top: 0;
   min-height: 500px;
+}
+
+.sidebar.collapsed {
+  width: 70px;
 }
 
 .nav {
@@ -15,7 +19,8 @@
   top: 45%;
   margin-top: -120px;
   width: 100%;
-  color: aliceble;
+  color: aliceblue;
+  transition: all 0.3s ease;
 }
 
 .nav ul {
@@ -31,9 +36,27 @@
 .nav li {
   font-size: 1.5rem;
   margin-top: 40px;
+  display: flex; /* Add display flex to make the list items flex containers */
+  align-items: center; /* Align items vertically in the flex container */
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+.nav.collapsed li {
+  opacity: 0;
 }
 
 .text {
   color: white;
   text-decoration: none;
+  margin-left: 16px; /* Add margin to create space between the icon and text */
+
 }
+
+.iconText {
+  margin-left: 8px; /* Add margin to create space between the icon and text */
+}
+
+
+
+
