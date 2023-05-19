@@ -1,14 +1,15 @@
 .card {
     padding: 1rem;
-    margin: 10px;
+    margin: 5px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     background-color: #79959c;
     z-index: 3;
-    width: 175px;
+    width: 180px;
     height: 225px;
     justify-content: center;
     align-items: center;
     position: relative;
+    
 }
   

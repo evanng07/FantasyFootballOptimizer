@@ -23,11 +23,12 @@ code {
 }
 
 .team {
+  width: 85%;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(6, 1fr);
-  margin-left: -24px;
-  margin: 2px;
+  left: 4%;
+  margin: 5px;
   gap: 10px;
   font-size: 0.75rem;
   font-weight: bold;
