@@ -37,6 +37,9 @@ const StatPage = () => {
 
     return (
         <div className="App">
+          <div className='text-white text-3xl mt-8 font-bold' style={{ marginLeft: "500px"}}>
+            Fantasy PPR Projections for the week
+          </div>
           <div className='container'>
             
             <table {...getTableProps()}>
