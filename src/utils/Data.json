@@ -131,5 +131,12 @@
     "position": "RB",
     "number": 2,
     "fantasy_score": 11.4
+  },
+  {
+    "name": "Michael Gallup",
+    "team": "Dallas Cowboys",
+    "position": "WR",
+    "number": 13,
+    "fantasy_score": 12.4
   }
 ]
