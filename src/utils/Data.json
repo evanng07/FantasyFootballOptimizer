@@ -138,5 +138,12 @@
     "position": "WR",
     "number": 13,
     "fantasy_score": 12.4
+  },
+  {
+    "name": "Joe Burrow",
+    "team": "Cincinnati Bengals",
+    "position": "QB",
+    "number": 9,
+    "fantasy_score": 19.8
   }
 ]
