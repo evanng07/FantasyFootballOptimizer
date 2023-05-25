@@ -145,5 +145,12 @@
     "position": "QB",
     "number": 9,
     "fantasy_score": 19.8
+  },
+  {
+    "name": "Joe Mixon",
+    "team": "Cincinnati Bengals",
+    "position": "RB",
+    "number": 28,
+    "fantasy_score": 17.8
   }
 ]
