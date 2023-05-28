@@ -166,5 +166,12 @@
     "position": "WR",
     "number": 10,
     "fantasy_score": 12.1
+  },
+  {
+    "name": "Lamar Jackson",
+    "team": "Baltimore Ravens",
+    "position": "QB",
+    "number": 8,
+    "fantasy_score": 16.1
   }
 ]
