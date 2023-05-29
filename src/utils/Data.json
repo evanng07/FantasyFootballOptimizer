@@ -173,5 +173,12 @@
     "position": "QB",
     "number": 8,
     "fantasy_score": 16.1
+  },
+  {
+    "name": "Kyler Murray",
+    "team": "Arizona Cardinals",
+    "position": "QB",
+    "number": 1,
+    "fantasy_score": 15.1
   }
 ]
