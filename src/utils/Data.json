@@ -180,5 +180,12 @@
     "position": "QB",
     "number": 1,
     "fantasy_score": 15.1
+  },
+  {
+    "name": "Stefon Diggs",
+    "team": "Buffalo Bills",
+    "position": "WR",
+    "number": 14,
+    "fantasy_score": 17.3
   }
 ]
