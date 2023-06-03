@@ -194,5 +194,12 @@
     "position": "RB",
     "number": 24,
     "fantasy_score": 12.1
+  },
+  {
+    "name": "George Kittle",
+    "team": "San Fransisco 49ers",
+    "position": "TE",
+    "number": 85,
+    "fantasy_score": 14.9
   }
 ]
